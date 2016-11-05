@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Fake Blog</title>
+        <meta name="description" content="The text my Fake Blog!">
+    </head>
+    <body>
+    	<p>This <span class="special">Fake Blog </span> describes some of my interests and activities. I will put my interests in an unordered list and my favorite activity, travel, in a table. </p>
+    	<div id="nav">
+    		<ul>
+		    	<li>Hiking</li>
+		    	<li>Music</li>
+		    	<li>Sports</li>
+		    	<li>Exercising</li>
+		    	<li>Travel</li>
+    		</ul>
+    	</div>
+    	<div id="main_table">
+    		<table>
+    			<thead>
+    				<tr>
+	    				<th>Favorite Place</th>
+	    				<th>Favorite City </th>
+	    				<th>URL</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+	    			<tr>
+		    			<td>Alaska</td>
+		    			<td>Anchorage</td>
+		    			<td><a href="https://www.travelalaska.com/">Click here to see the sites</a></td>
+	    			</tr>
+	    			<tr>
+		    			<td>Spain</td>
+			    		<td>Madrid</td>
+			    		<td><a href="http://www.esmadrid.com/en">Click here to see the sites</a></td>
+	    			</tr>
+	    			<tr>
+			    		<td>Portugal</td>
+			    		<td>Lisbon</td>
+			    		<td><a href="http://www.visitlisboa.com/">Click here to see the sites</a></td>
+	    			</tr>
+    			</tbody>
+    		</table>
+    	</div>
+    	<form>
+    		<p>Please Register:</p>
+    		<label for="form_name">Name</label>
+    		<input type="text" name="form_name" id="form_name">
+    		<p> Select Gender:</p>
+	    	<input type="radio" name="gender" value="male">Male
+	    	<input type="radio" name="gender" value="female">Female
+	    	<p>Select your favorite interests:</p>
+	     	<input type="checkbox" name="interests" value="Travel">Travel
+	    	<input type="checkbox" name="interests" value="Sports">Sports
+	    	<input type="checkbox" name="interests" value="Cooking">Cooking
+	    	<input type="checkbox" name="interests" value="Music">Music
+	    	<p>Select Places Traveled:</p>
+    		<select name="places_traveled">
+		    	<option value="alaska">Alaska</option>
+			    <option value="sanjose">San Jose, California</option>
+			    <option value="madrid">Madrid</option>
+			    <option value="lisbon">Lisbon</option>
+			</select>
+			<p>Click here to register:</p>
+    		<input type="submit" value="Register">
+    	</form>
+    </body>
+</html>
