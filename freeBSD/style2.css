@@ -1,0 +1,121 @@
+/*CSS reset settings here*/
+*{
+	 margin: 0px;
+	 padding: 0px;
+}
+#wrapper{
+	 width: 970px;
+	 margin: 0px auto;
+	 padding: 10px;
+}
+#header{
+	 width: 970px;
+	 background-color: #800505;
+	 margin: 10px 10px;
+ }
+ .placeholder{
+	 display: inline-block;
+	 margin: 0px auto;
+  }
+
+  .box1{
+  	display: inline-block;
+	position: absolute;
+    right: 0px;
+    width: 480px;
+    padding: 10px
+  }
+
+.box1 h5{
+	color: white;
+}
+.box1 a{
+	color: orange;
+}
+ #topnav a{
+	margin: 10px 0px 0px 10px;
+	vertical-align: top;
+	color: #847a7a;
+ }
+
+  #topnav{
+	background-color: silver;
+	margin: 10px 0px 0px 10px;
+	vertical-align: top;
+	width: 970px;
+ }
+
+ .h_line {
+ 	width:100%;
+ 	height:1px;
+ 	background: #000000;
+ 	 }
+
+
+ a{
+ 	color: darkred;
+ }
+ ol.indent{
+ 	list-style-position: inside;
+ }
+
+ ul.indent{
+	list-style-position: inside;
+}
+
+#sidenav{
+ width: 200px;
+ background-color: silver;
+ margin: 10px;
+ display: inline-block;
+}
+#main_content{
+ width: 700px;
+ display: inline-block;
+ vertical-align: top;
+ margin: 10px;
+ padding-right: 5px;
+}
+.section1{
+ width: 650px;
+ display: inline-block;
+ margin: 10px 0px 0px 10px;
+}
+.mainheading h2{
+ width: 220px;
+ color: darkred;
+ display: inline-block;
+ margin: 10px 0px 0px 10px;
+}
+.minorheading h4{
+ width: 220px;
+ color: darkred;
+ display: inline-block;
+ margin: 10px 0px 0px 10px;
+}
+.sectionheading{
+ width: 300px;
+ color: darkred;
+ display: inline-block;
+ margin: 10px 0px 0px 10px;
+}
+.TOC{
+ width: 300px;
+ margin: 10px 0px 0px 10px;
+}
+.statuscontent{
+ width: 700px;
+ margin: 10px 0px 0px 10px;
+}
+.latestnews{
+ width: 700px;
+ margin: 10px 0px 0px 10px;
+ }
+.FAQ{
+ width: 700px;
+ margin: 10px 0px 0px 10px;
+}
+.lastheadingcontent{
+ width: 700px;
+ margin: 10px 0px 0px 10px;
+}
