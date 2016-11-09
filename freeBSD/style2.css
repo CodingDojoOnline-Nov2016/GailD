@@ -6,44 +6,47 @@
 #wrapper{
 	 width: 970px;
 	 margin: 0px auto;
-	 padding: 10px;
 }
 #header{
-	 width: 970px;
 	 background-color: #800505;
-	 margin: 10px 10px;
  }
- .placeholder{
+	#header img{
 	 display: inline-block;
+	 vertical-align: top;
+	 width: 512px;
+	 height: 74px;
 	 margin: 0px auto;
   }
 
   .box1{
+		width: 400px;
   	display: inline-block;
-	position: absolute;
-    right: 0px;
-    width: 480px;
+		vertical-align: top;
     padding: 10px
   }
+		.box1 h5{
+			color: white;
+			text-align: right;
+		}
+		.box1 a{
+			color: orange;
+		}
+		.box1 form {
+			margin-top: 10px;
+			text-align: right;
+		}
 
-.box1 h5{
-	color: white;
-}
-.box1 a{
-	color: orange;
-}
- #topnav a{
-	margin: 10px 0px 0px 10px;
-	vertical-align: top;
-	color: #847a7a;
- }
 
-  #topnav{
+#topnav{
 	background-color: silver;
-	margin: 10px 0px 0px 10px;
-	vertical-align: top;
-	width: 970px;
- }
+	padding: 10px;
+}
+	#topnav a{
+		margin: 10px 0px 0px 10px;
+		vertical-align: top;
+		color: #847a7a;
+	}
+
 
  .h_line {
  	width:100%;
@@ -55,13 +58,9 @@
  a{
  	color: darkred;
  }
- ol.indent{
+ ol.indent, ul.indent{
  	list-style-position: inside;
  }
-
- ul.indent{
-	list-style-position: inside;
-}
 
 #sidenav{
  width: 200px;
@@ -81,41 +80,29 @@
  display: inline-block;
  margin: 10px 0px 0px 10px;
 }
-.mainheading h2{
+#main_content h2 {
  width: 220px;
  color: darkred;
  display: inline-block;
  margin: 10px 0px 0px 10px;
 }
-.minorheading h4{
- width: 220px;
+#main_content h4{
  color: darkred;
- display: inline-block;
  margin: 10px 0px 0px 10px;
 }
-.sectionheading{
- width: 300px;
- color: darkred;
- display: inline-block;
- margin: 10px 0px 0px 10px;
-}
+
 .TOC{
- width: 300px;
  margin: 10px 0px 0px 10px;
 }
 .statuscontent{
- width: 700px;
  margin: 10px 0px 0px 10px;
 }
 .latestnews{
- width: 700px;
  margin: 10px 0px 0px 10px;
  }
-.FAQ{
- width: 700px;
+div.FAQ{
  margin: 10px 0px 0px 10px;
 }
 .lastheadingcontent{
- width: 700px;
  margin: 10px 0px 0px 10px;
 }
