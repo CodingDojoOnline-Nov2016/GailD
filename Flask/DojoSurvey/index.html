@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dojo Survey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  </head>
+  <body>
+    <h3>Dojo Survey</h3>
+    <form action="/users" method="post">
+      Your Name: <input type="text" name="name">
+      <br><br>
+      Dojo Location: <select name="locations">
+        <option value="san_jose">San Jose</option>
+        <option value="chicago">Chicago</option>
+        <option value="seattle">Seattle</option>
+        <option value="boston">Boston</option>
+      </select>
+      <br><br>
+      Favorite Language: <select name="fav_language">
+        <option value="python">Python</option>
+        <option value="jquery">JQuery</option>
+        <option value="javascript">Javascript</option>
+        <option value="php">PHP</option>
+      </select>
+      <br><br>
+      Comment (optional): <textarea name="comments" rows="5" cols="80"></textarea>
+      <input class="button button-primary" type="submit" value="submit">
+    </form>
+  </body>
+</html>
