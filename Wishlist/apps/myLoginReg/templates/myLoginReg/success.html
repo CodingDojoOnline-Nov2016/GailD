@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Success</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  </head>
+  <body>
+    <h1>Welcome {{request.session.user.name}}! You have successfully logged in!</h1>
+    <a href="{% url 'users:logout' %}">Logout</a>
+  </body>
+</html>

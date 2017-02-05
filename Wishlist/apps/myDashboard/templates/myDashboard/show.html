@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wish List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="{% url 'dashboard:index' %}">Home</a>
+        <a href="{% url 'users:logout' %}">Logout</a>
+      </nav>
+    </header>  
+
+    <div>
+      <h1>Create a New Wish List Item</h1>
+      <form action="{% url 'dashboard:create' %}" method='post'>
+        {% csrf_token %}
+        <label>Item/Product:</label>
+        <input type="text" name="new_item">
+        <input type="submit" value="Add">
+      </form>
+    </div>
+  </body>
+</html>

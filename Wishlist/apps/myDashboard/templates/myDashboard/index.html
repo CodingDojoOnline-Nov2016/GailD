@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Book Reviews</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  </head>
+  <body>
+    <header>
+      <p>Welcome {{ request.session.user.name }}</p>
+      <nav>
+        <a href="{% url 'dashboard:create' %}">Add Item</a>
+        <a href="{% url 'users:logout' %}">Logout</a>
+      </nav>
+    </header>
+    <h1>Your Wish List</h1>
+    <div>
+      {% for user_wishlist in user_wishlists %}
+      <div>
+        <h4><a href="{% url 'dashboard:show' id=user_wishlist.id %}">{{user_wishlist.item}}</a></h4>
+        <p>{{user_wishlist.added_by}}</p>
+        <p>{{user_wishlist.created_at}}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <div>
+      <h3>Other Users' Wish List</h3>
+      {% for others_wishlist in others_wishlists %}
+      <p><a href="{% url 'dashboard:show' id=others_wishlist.id% }">{{others_wishlist.item}}</a></p>
+      {% endfor %}
+    </div>
+  </body>
+</html>
